@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For CmdProcessor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+CommandProcessor		KEYWORD1
+CmdHandler				KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+registerCmd				KEYWORD2
+unregisterCmd			KEYWORD2
+process					KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

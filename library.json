@@ -1,0 +1,22 @@
+{
+  "name": "CmdProcessor",
+  "keywords": "command processor",
+  "description": "Arduino Library that implements a simple Command Processor",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/ecabello/cmdprocesor.git"
+  },
+  "authors": 
+  [
+    {
+      "name": "Ernesto Cabello",
+      "email": "ecabello@valtamtechnologies.com",
+      "url": "http://www.valtamtechnologies.com",
+      "maintainer": true
+    }    
+  ],
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
