@@ -38,10 +38,6 @@ void setup() {
 }
 
 void loop() {
-  //BufferedStream lineReader(bt);
-  //if (lineReader.available()) 
-  //{
-  //  String cmdLine = lineReader.readLine();
   if (bt.available())
   {
     String cmdLine;
