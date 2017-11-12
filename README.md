@@ -2,14 +2,17 @@
 
 ## Usage
 
+```
 CmdProcessor<3> cmdProc;
 
 cmdProc.registerCmd("on", &onHandler);
 cmdProc.registerCmd("off", &offHandler);
 cmdProc.registerCmd("status", &statusHandler);
+
 ...
 
 cmdProc.process("on;wait?5000;off")
+```
 
 ## Credits
 
