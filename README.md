@@ -7,7 +7,7 @@ CmdProcessor<3> cmdProc;
 
 cmdProc.registerCmd("on", &onHandler);
 cmdProc.registerCmd("off", &offHandler);
-cmdProc.registerCmd("status", &statusHandler);
+cmdProc.registerCmd("wait", &statusHandler);
 
 ...
 
